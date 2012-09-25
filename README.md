@@ -4,7 +4,8 @@ This is a program thats takes in user input and tokenizes it based on the string
 
 example: ./tokenizer "abc" "aIbLovecGit" - token:I
                                            token:Love
-                                           token:Gi
+                                           token:Git
+                                           
 This was my first C program I made besides hello world and other simple programs. I do not use strtok or strsep to help--
 me tokenize the string.
 I do use strpbrk to locate a separator and then do pointer arithmatic to get the token from the token string.
